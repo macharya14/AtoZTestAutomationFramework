@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AssignSuite]">
+  <parameter name="sheetName" value="assign"/>
+  <test name="AssignmentsTest(failed)">
+    <parameter name="sheetName" value="assign"/>
+    <classes>
+      <class name="com.main.tests.AssignmentsPageTest">
+        <methods>
+          <include name="quitTest"/>
+          <include name="init"/>
+          <include name="testAssignments"/>
+          <include name="initTest"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.main.tests.AssignmentsPageTest -->
+    </classes>
+  </test> <!-- AssignmentsTest(failed) -->
+</suite> <!-- Failed suite [AssignSuite] -->

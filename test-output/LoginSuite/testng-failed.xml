@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [LoginSuite]">
+  <parameter name="sheetName" value="login"/>
+  <parameter name="sessionCookie" value="PHPSESSID"/>
+  <test name="login(failed)">
+    <parameter name="sheetName" value="login"/>
+    <parameter name="sessionCookie" value="PHPSESSID"/>
+    <classes>
+      <class name="com.main.tests.LoginPageTest">
+        <methods>
+          <include name="quitTest"/>
+          <include name="testLogin"/>
+          <include name="initTest"/>
+          <include name="init"/>
+          <include name="testLogout"/>
+          <include name="setupPage"/>
+        </methods>
+      </class> <!-- com.main.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- login(failed) -->
+</suite> <!-- Failed suite [LoginSuite] -->

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="LoginSuite" duration-ms="18840" started-at="2016-01-11T21:28:01Z" finished-at="2016-01-11T21:28:20Z">
+    <groups>
+    </groups>
+    <test name="login" duration-ms="18840" started-at="2016-01-11T21:28:01Z" finished-at="2016-01-11T21:28:20Z">
+      <class name="com.main.tests.LoginPageTest">
+        <test-method status="PASS" signature="initTest()[pri:0, instance:com.main.tests.LoginPageTest@614c5515]" name="initTest" is-config="true" duration-ms="12821" started-at="2016-01-11T13:27:49Z" finished-at="2016-01-11T13:28:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="PASS" signature="init(java.lang.String, java.lang.String)[pri:0, instance:com.main.tests.LoginPageTest@614c5515]" name="init" is-config="true" duration-ms="1" started-at="2016-01-11T13:28:01Z" finished-at="2016-01-11T13:28:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PHPSESSID]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="setupPage()[pri:0, instance:com.main.tests.LoginPageTest@614c5515]" name="setupPage" is-config="true" duration-ms="24" started-at="2016-01-11T13:28:01Z" finished-at="2016-01-11T13:28:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPage -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String)[pri:0, instance:com.main.tests.LoginPageTest@614c5515]" name="testLogin" duration-ms="10946" started-at="2016-01-11T13:28:02Z" data-provider="users-data" finished-at="2016-01-11T13:28:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[manjula.acharya@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogout()[pri:0, instance:com.main.tests.LoginPageTest@614c5515]" name="testLogout" duration-ms="7334" started-at="2016-01-11T13:28:13Z" depends-on-methods="com.main.tests.LoginPageTest.testLogin" finished-at="2016-01-11T13:28:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogout -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:com.main.tests.LoginPageTest@614c5515]" name="quitTest" is-config="true" duration-ms="84" started-at="2016-01-11T13:28:20Z" finished-at="2016-01-11T13:28:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- com.main.tests.LoginPageTest -->
+    </test> <!-- login -->
+  </suite> <!-- LoginSuite -->
+  <suite name="HomeSuite" duration-ms="8109" started-at="2016-01-11T21:27:40Z" finished-at="2016-01-11T21:27:48Z">
+    <groups>
+    </groups>
+    <test name="home" duration-ms="8109" started-at="2016-01-11T21:27:40Z" finished-at="2016-01-11T21:27:48Z">
+      <class name="com.main.tests.HomePageTest">
+        <test-method status="PASS" signature="initTest()[pri:0, instance:com.main.tests.HomePageTest@edf4efb]" name="initTest" is-config="true" duration-ms="6405" started-at="2016-01-11T13:27:34Z" finished-at="2016-01-11T13:27:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="PASS" signature="setupPage()[pri:0, instance:com.main.tests.HomePageTest@edf4efb]" name="setupPage" is-config="true" duration-ms="29" started-at="2016-01-11T13:27:40Z" finished-at="2016-01-11T13:27:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPage -->
+        <test-method status="PASS" signature="checkTitle()[pri:0, instance:com.main.tests.HomePageTest@edf4efb]" name="checkTitle" duration-ms="476" started-at="2016-01-11T13:27:40Z" finished-at="2016-01-11T13:27:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitle -->
+        <test-method status="PASS" signature="checkLogo()[pri:0, instance:com.main.tests.HomePageTest@edf4efb]" name="checkLogo" duration-ms="371" started-at="2016-01-11T13:27:41Z" finished-at="2016-01-11T13:27:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLogo -->
+        <test-method status="PASS" signature="checkSliderImageCount()[pri:0, instance:com.main.tests.HomePageTest@edf4efb]" name="checkSliderImageCount" duration-ms="530" started-at="2016-01-11T13:27:41Z" finished-at="2016-01-11T13:27:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSliderImageCount -->
+        <test-method status="PASS" signature="checkNavBar()[pri:0, instance:com.main.tests.HomePageTest@edf4efb]" name="checkNavBar" duration-ms="30" started-at="2016-01-11T13:27:42Z" finished-at="2016-01-11T13:27:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkNavBar -->
+        <test-method status="PASS" signature="checkInfoPanel()[pri:0, instance:com.main.tests.HomePageTest@edf4efb]" name="checkInfoPanel" duration-ms="27" started-at="2016-01-11T13:27:42Z" finished-at="2016-01-11T13:27:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkInfoPanel -->
+        <test-method status="PASS" signature="checkNavBarResources()[pri:0, instance:com.main.tests.HomePageTest@edf4efb]" name="checkNavBarResources" duration-ms="9" started-at="2016-01-11T13:27:42Z" finished-at="2016-01-11T13:27:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkNavBarResources -->
+        <test-method status="PASS" signature="checkHeader()[pri:0, instance:com.main.tests.HomePageTest@edf4efb]" name="checkHeader" duration-ms="2402" started-at="2016-01-11T13:27:42Z" finished-at="2016-01-11T13:27:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHeader -->
+        <test-method status="PASS" signature="checkFooter()[pri:0, instance:com.main.tests.HomePageTest@edf4efb]" name="checkFooter" duration-ms="4218" started-at="2016-01-11T13:27:44Z" finished-at="2016-01-11T13:27:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFooter -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:com.main.tests.HomePageTest@edf4efb]" name="quitTest" is-config="true" duration-ms="230" started-at="2016-01-11T13:27:48Z" finished-at="2016-01-11T13:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- com.main.tests.HomePageTest -->
+    </test> <!-- home -->
+  </suite> <!-- HomeSuite -->
+  <suite name="AtoZAutomation" duration-ms="0" started-at="2016-01-11T21:28:37Z" finished-at="2016-01-11T21:28:37Z">
+    <groups>
+    </groups>
+  </suite> <!-- AtoZAutomation -->
+  <suite name="AssignSuite" duration-ms="11421" started-at="2016-01-11T21:28:25Z" finished-at="2016-01-11T21:28:37Z">
+    <groups>
+    </groups>
+    <test name="AssignmentsTest" duration-ms="11421" started-at="2016-01-11T21:28:25Z" finished-at="2016-01-11T21:28:37Z">
+      <class name="com.main.tests.AssignmentsPageTest">
+        <test-method status="PASS" signature="initTest()[pri:0, instance:com.main.tests.AssignmentsPageTest@15975490]" name="initTest" is-config="true" duration-ms="4938" started-at="2016-01-11T13:28:20Z" finished-at="2016-01-11T13:28:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:com.main.tests.AssignmentsPageTest@15975490]" name="init" is-config="true" duration-ms="13" started-at="2016-01-11T13:28:25Z" finished-at="2016-01-11T13:28:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[assign]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testAssignments(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.main.tests.AssignmentsPageTest@15975490]" name="testAssignments" duration-ms="11357" started-at="2016-01-11T13:28:25Z" data-provider="assign-data" finished-at="2016-01-11T13:28:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[manjula.acharya@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret7]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Questions]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAssignments -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.main.tests.AssignmentsPageTest@15975490]" name="close" is-config="true" duration-ms="7" started-at="2016-01-11T13:28:37Z" finished-at="2016-01-11T13:28:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:com.main.tests.AssignmentsPageTest@15975490]" name="quitTest" is-config="true" duration-ms="85" started-at="2016-01-11T13:28:37Z" finished-at="2016-01-11T13:28:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- com.main.tests.AssignmentsPageTest -->
+    </test> <!-- AssignmentsTest -->
+  </suite> <!-- AssignSuite -->
+</testng-results>
