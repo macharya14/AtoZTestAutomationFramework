@@ -1,0 +1,20 @@
+{
+  "header.social.links":"css=ul.social-icons li a",
+  "header.social.links.fblink":"css=ul.social-icons li:nth-child(2) a",
+  "footer.social.links":"css=ul.social li a",
+  "portal.logo":"css=img#logo",
+  "portal.loginLink":"id=loginButton",
+  "portal.logoutLink":"id=logout",
+  "portal.navbar":"css=.navbar-nav li.nav-item",
+  "portal.navbar.resources":"css=li.nav-item ul.dropdown-menu li",
+  "portal.contact.number":"xpath=html/body/header/div[2]/div/div/ul/p[1]/a",
+  "home.slider.items":"css=#promo-slider ul li",
+  "home:resource":"cass=.dropdown-toggle",
+  "home:resource.list":"css=.dropdown-menu>li>a",
+  "login.loginBtn":"css=button#login",
+  "login.username":"id=username",
+  "login.password":"id=password",
+  "assignments.questions":"css=a#question",
+  "assignments.questions.categories":"xpath=html/body/div[1]/div/div/div[2]/div[2]/p/div[1]/div[3]/div/ul/li",
+  "assignment.questions.categories.500-must":"xpath=html/body/div[1]/div/div/div[2]/div[2]/p/div[1]/div[3]/div/ul/li[2]"
+}

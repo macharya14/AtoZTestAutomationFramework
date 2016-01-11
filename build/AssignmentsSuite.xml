@@ -1,0 +1,8 @@
+<suite name="AssignSuite" verbose="1">
+    <test name="AssignmentsTest">
+        <parameter name="sheetName" value="assign"></parameter>
+        <classes>
+            <class name="com.main.tests.AssignmentsPageTest"/>
+        </classes>
+    </test>
+</suite>
